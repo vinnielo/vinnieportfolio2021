@@ -5,14 +5,11 @@ import '../styles/globals.css';
 function MyApp({ Component, pageProps }) {
   return (
     <>
-  <Component {...pageProps} />
-  {/* <Drift appId='z89bcubzwtty' /> */}
-  <MessengerCustomerChat
-    pageId="112037220980342"
-    appId="150119663689694"
-  />
-  </>
-  )
+      <Component {...pageProps} />
+      {/* <Drift appId='z89bcubzwtty' /> */}
+      <MessengerCustomerChat pageId='112037220980342' appId='150119663689694' />
+    </>
+  );
 }
 
-export default MyApp
+export default MyApp;
